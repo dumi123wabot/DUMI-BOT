@@ -105,8 +105,8 @@
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "required": true,
+            "value": "හායි මම දැන් ඔන්ලයින්.🥀 https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX අපෙ සපෝට් ගෲප් එක"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
