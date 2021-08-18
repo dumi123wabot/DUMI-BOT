@@ -506,11 +506,11 @@
         "covid": {
             "COV_DESC": "රටවල් 15 කට වැඩි ගණනක දෛනික සහ සමස්ත කොවිඩ් වගුව පෙන්වයි .",
             "NOT": "```කණගාටුයි මට මෙවැනි රටක් සොයා ගැනීමට නොහැකි වීම ගැන!  කරුණාකර අදාළ රටේ කේත ඇතුළු කරන්න !```\n\n```රට සංකේත: ``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
-       },
+     },
         "lyrics": {
             "LY_DESC": "Finds the lyrics of the song.",
             "NEED": "```You Must Write Any Song!```",
-            "SLY": "Lyrics:"
+            "SLY": "Lyrics:",
             "AUT": "Song Owner:",
             "BUL": "Founded Song:",
             "ARAT": "Searched Song:"
