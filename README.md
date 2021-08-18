@@ -65,9 +65,9 @@ CREATED BY DUMINDU CHATHURANGA
 ## Helpers
   <div align="center">
     
-  [![DUMI BOT](https://telegra.ph/file/df8f8f311214588c90cdb.jpg?size=100)](https://telegra.ph/file/df8f8f311214588c90cdb.jpg) |  [![Ravana](https://github.com/Alien-alfa.png?size=100)](https://github.com/RAVANA-SL/slRavana) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
+  [![DUMI BOT](https://i.ibb.co/7G8DcmD/IMG-20210818-162806.jpg?size=100)](https://telegra.ph/file/df8f8f311214588c90cdb.jpg) |  [![Ravana](https://github.com/Alien-alfa.png?size=100)](https://github.com/RAVANA-SL/slRavana) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[White-Dragon](https://github.com/farhan-dqz)  | [Ravana](https://github.com/RAVANA-SL/slRavana) | [Unknown ](https://github.com/afnanplk)
+[dumi bot](https://github.com/farhan-dqz)  | [Ravana](https://github.com/RAVANA-SL/slRavana) | [Unknown ](https://github.com/afnanplk)
 Base, owner | Help to create bot | unknown
   </div>
     
