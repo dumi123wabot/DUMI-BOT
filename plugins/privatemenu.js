@@ -75,6 +75,10 @@ Asena.addCommand({pattern: 'dumi', fromMe: true, desc: Lang.WP}, (async (message
 
 🔱 Command: .fatp
 
+🔱 Command: .gm
+
+🔱 Command: .gn
+
 🔱 Command: .jetau
 
 🔱 Command: .carbon
