@@ -26,7 +26,7 @@ if (Config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*WHATSAPP Group:*https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX*whatsapp plugins group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*:* ' + Config.CHANNEL, MessageType.text);
         }
         else {
-            const pow = '*Powered by WhatsAsena*'
+            const pow = '/n*Powered by dumibot*/n'
             const payload = Config.ALIVEMSG
             const status = await message.client.getStatus()
             const ppUrl = await message.client.getProfilePicture() 
@@ -57,7 +57,7 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*WHATSAPP Group:*https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX*whatsapp plugins group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*:* ' + Config.CHANNEL, MessageType.text);
         }
         else {
-            const pow = '*Powered by WhatsAsena*'
+            const pow = '/n*Powered by dumibot*/n'
             const payload = Config.ALIVEMSG
             const status = await message.client.getStatus()
             const ppUrl = await message.client.getProfilePicture() 
