@@ -29,7 +29,7 @@ if (Config.WORKTYPE == 'private') {
             const pow = '/n*Powered by dumibot*/n'
             const payload = Config.ALIVEMSG
             const status = await message.client.getStatus()
-            const ppUrl = await message.client.getProfilePicture() 
+            const ppUrl = await message.client.getProfilePicture(https://i.ibb.co/7G8DcmD/IMG-20210818-162806.jpg) 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
 
             if (!payload.includes('{pp}')) {
@@ -60,7 +60,7 @@ else if (Config.WORKTYPE == 'public') {
             const pow = '/n*Powered by dumibot*/n'
             const payload = Config.ALIVEMSG
             const status = await message.client.getStatus()
-            const ppUrl = await message.client.getProfilePicture() 
+            const ppUrl = await message.client.getProfilePicture(https://i.ibb.co/7G8DcmD/IMG-20210818-162806.jpg) 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
 
             if (!payload.includes('{pp}')) {
