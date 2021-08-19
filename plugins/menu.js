@@ -24,124 +24,321 @@ Asena.addCommand({pattern: 'dumi', fromMe: false, desc: Lang.WP}, (async (messag
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💮DUMI BOT🔱💮━━━━━⛦
 ●▬▬ 🔱📌DUMI 𝐏𝐔𝐁𝐋𝐈𝐂 𝐁𝐎𝐓📌🔱 ▬▬●
-■□■□■□■□■□■□■□■□■□■□
+
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .song <පෙළow>
-🌀U𝙨𝙚➜ ඔබ වෙනුවෙන් ගීතය බාගත කරයි..
+💫😈DUMI BOT PUBLC😈💫
+  ■□■□■□■□■□■□■□■□■□■□
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .video <yt link>
-🌀𝙐𝙨𝙚➜ යූ ටියුබ් සබැඳියෙන් වීඩියෝ බාගන්න.
+🔱 Command: .vtalk
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .profinsta<පරිශීලක නාමය>
-🌀𝙐𝙨𝙚➜ පුද්ගලයාගේ පැතිකඩෙහි දැක්ව පෙන්වයි.
+🔱 Command: .fulleva  
+⌨️ Example: .fulleva on / off
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .insta <link>
-🌀𝙐𝙨𝙚➜   Instagram වෙතින් අන්තර්ගතය බාගන්න.
+🔱 Command: .xmedia
+🔰 Description: එය මාධ්‍ය මෙවලම් 25 කට වඩා ඇති ප්ලගිනයකි . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .yt<text>
-🌀𝙐𝙨𝙚➜   ඔබට yt සබැඳි ලබා දෙයි.
+🔱 Command: .install 
+🔰 Description: බාහිර ප්ලගීන සවි කරන්න. 
 
-♦𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .show <පෙන්වන්න නම>
-🌀𝙐𝙨𝙚➜   රූපවාහිනී කතා මාලාව හා සංදර්ශන සම්බන්ධ තොරතුරු ලබා ගන්න.
+🔱 Command: .plugin
+🔰 Description: ඔබ ස්ථාපනය කර ඇති ප්ලගීන පෙන්වයි. 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .gif 
-🌀𝙐𝙨𝙚➜ වීඩියෝව gif බවට පරිවර්තනය කරයි.
+🔱 Command: .remove
+🔰 Description: Removes the plugin. 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .tomp3 
-🌀𝙐𝙨𝙚➜ වීඩියෝව ශ්රව්ය උපකරණ බවට පරිවර්තනය කරයි.
+🔱 Command: .ban 
+🔰 Description: කණ්ඩායමේ කෙනෙක්ව තහනම් කරන්න.  පණිවිඩයට පිළිතුරු දෙන්න හෝ විධානය භාවිතා කිරීමට පුද්ගලයෙකු ටැග් කරන්න . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .say <පෙළ>
-🌀𝙐𝙨𝙚➜ පෙළ හ voice බවට පරිවර්තනය කරයි.
+🔱 Command: .add
+🔰 Description: මට පරිශීලකයෙක් දෙන්න . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .img <පෙළ>
-🌀𝙐𝙨𝙚➜ එය ගූගල් වෙතින් රූපය යවයි.
+🔱 Command: .promote 
+🔰 Description: ඕනෑම පුද්ගලයෙකු පරිපාලකයෙකු කරයි . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .trt <language code>
-🍙𝙐𝙨𝙚➜ ඔබ ටැග් කරන පා text ය පරිවර්තනය කරන්න
+🔱 Command: .demote 
+🔰 Description: ඕනෑම පරිපාලකයෙකුගේ අධිකාරිය ගනී . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .wiki <පෙළ>
-🌀𝙐𝙨𝙚➜ එය විකිපීඩියාවේ ප්රති .ලය යවයි.
+🔱 Command: .mute 
+🔰 Description: කණ්ඩායම් කතාබහ නිශ්ශබ්ද කරන්න.  පණිවිඩයක් යැවිය හැක්කේ පරිපාලකයින්ට පමණි . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .lyric <පෙළ>
-🌀𝙐𝙨𝙚➜  ගීතයේ පද රචනා සොයා ගනී.
+🔱 Command: .unmute 
+🔰 Description: මෙම කණ්ඩායම් පිළිසඳර ආරම්භ කර ඇත. ඕනෑම කෙනෙකුට යැවිය හැක . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .covid <රටේ කේතය>
-🌀𝙐𝙨𝙚➜ ඔබේ රටේ COVID සංඛ්යාලේඛන යවන්න.
+🔱 Command: .invite 
+🔰 Description: කණ්ඩායමේ ආරාධනා සම්බන්ධක සපයයි . 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .weather <නගරය>
-🌀𝙐𝙨𝙚➜ ඔබේ ස්ථානයේ කාලගුණය ගැන ඔබට කියයි.
+🔱 Command: .afk 
+🔰 Description: එය ඔබව AFK- යතුරු පුවරුවෙන් ඉවත් කරයි . 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .removebg 
-🌀𝙐𝙨𝙚➜ රූපයේ පසුබිම ඉවත් කරයි.
+🔱 Command: .apkmod
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .ocr
-🌀𝙐𝙨𝙚➜ රූපයේ ලියා ඇති පෙළ සොයා ගනී.
+🔱 Command: .fatp
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .wallpaper
-🌀𝙐𝙨𝙚➜ එය අහඹු බිතුපත ඔබට යවයි.
-■□■□■□■□■□■□■□■□■□■□
-♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
+🔱 Command: .jetau
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .joke 
-🌀𝙐𝙨𝙚➜ එය අහඹු විහිළුවක් යවයි.
- 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .meme <පෙළ>
-🌀𝙐𝙨𝙚➜ Cations the image into a meme.
+🔱 Command: .carbon
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .quote 
-🌀𝙐𝙨𝙚➜ එය අහඹු උපුටා දැක්වීමක් යවයි.
+🔱 Command: .mp4audio
+🔰 Description: වීඩියෝව ශබ්දය බවට පරිවර්තනය කරයි . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .ss <වෙබ් අඩවි සබැඳිය>
-🌀𝙐𝙨𝙚➜ එය වෙබ් අඩවියේ තිර රුව යවයි.
+🔱 Command: .imagesticker
+🔰 Description: ස්ටිකරය ඡායාරූපයක් බවට පත් කරයි.  
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .changesay <පෙළ>
-🌀𝙐𝙨𝙚➜ Text පෙළ වෙනස් කිරීමේ මතක රූපයක් බවට පරිවර්තනය කරයි.
+🔱 Command: .vsticker
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .trumpsay
-🌀𝙐𝙨𝙚➜ ට්‍රම්ප්ගේ ට්වීට් එකට පෙළ පරිවර්තනය කරන්න
+🔱 Command: .deepai
+🔰 Description: කෘතිම ස්නායුක ජාල උපයෝගී කරගනිමින් බලවත්ම කෘතිම බුද්ධි මෙවලම් ක්‍රියාත්මක කරයි . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .compliment 
-🌀𝙐𝙨𝙚➜ ඔබට ප්‍රශංසාවක් ලබා දෙයි.
+🔱 Command: .dropwater 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .bitly <link>
-🌀𝙐𝙨𝙚➜   ඔබේ සබැඳිය කෙටි කරන්න.
+🔱 Command: .print 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .dict 
-🌀𝙐𝙨𝙚➜   ශබ්ද කෝෂය [-dict en; anime]
+🔱 Command: .bashmedia 
+⌨️ Example: video.mp4 && media/gif/pic.mp4
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .zodiac <leo> 
-🌀𝙐𝙨𝙚➜   ඔබේ කේන්දර සටහන ගැන ඔබට කියයි.
+🔱 Command: .addserver
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .qr <text>
-🌀𝙐𝙨𝙚➜   පෙළ qr කේතයක් බවට පරිවර්තනය කරයි.
+🔱 Command: .term 
+🔰 Description: සේවාදායකයේ කවචය මත විධානය ක්‍රියාත්මක කිරීමට ඉඩ සලසයි . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .movie 
-🌀𝙐𝙨𝙚➜  චිත්‍රපටය පිළිබඳ තොරතුරු ඔබට ලබා දෙයි.
+🔱 Command: .mediainfo
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .anime <text>
-🌀𝙐𝙨𝙚➜  සජීවිකරණය පිළිබඳ තොරතුරු ඔබට ලබා දෙයි.
+🔱 Command: .pmsend 
 
-■□■□■□■□■□■□■□■□■□■□
-♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
+🔱 Command: .pmttssend 
 
+🔱 Command: .ffmpeg 
+🔰 Description: අපේක්ෂිත ffmpeg පෙරහන වීඩියෝ පටයට යොදන්න .
+⌨️ උදාහරණයක් : .ffmpeg fade=in:0:30 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .sticker 
-🌀𝙐𝙨𝙚➜ img / gif ස්ටිකරයක් බවට පරිවර්තනය කරයි.
+🔱 Command: .filter 
+🔰 Description: එය පෙරහනක් එක් කරයි.  කවුරුහරි ඔබේ පෙරහන ලියන්නේ නම්, එය පිළිතුර යවයි.  ඔබ. ෆිල්ටරය ලියන්නේ නම්, එය ඔබේ පෙරහන් ලැයිස්තුව පෙන්වයි.  
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .photo 
-🌀𝙐𝙨𝙚➜ ස්ටිකර් රූපයට පරිවර්තනය කරයි.
+🔱 Command: .stop 
+🔰 Description: ඔබ කලින් එකතු කළ පෙරහන නවත්වන්න . 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .attp <text>
-🌀𝙐𝙨𝙚➜ Text පෙළ දිලිසෙන ස්ටිකරයක් බවට පරිවර්තනය කරයි.
-■□■□■□■□■□■□■□■□■□■□
+🔱 Command: .gm
+🔰 Description: it sends good morning message 
 
-💢Logo  Commands💢(මේවා වැරදි අලුත් වැඩියා කල යුතු බැවින් දැනට .txttoimg පාවච්චි කරන්න)
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .txttiomg
-🌀𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
+🔱 Command: .gn
+🔰 Description: it sends good night message 
 
-♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .logo
-🌀𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
+🔱 Command: .welcome
+🔰 Description: එය පිළිගැනීමේ පණිවිඩය සකසයි.  ඔබ එය හිස්ව තැබුවහොත් එය පිළිගැනීමේ පණිවිඩය පෙන්වයි . 
+
+🔱 Command: .goodbye
+🔰 Description: සමුගැනීමේ පණිවිඩය සකසයි.  ඔබ හිස්ව තැබුවහොත්, එය ආයුබෝවන් පණිවිඩය පෙන්නුම් කරයි . 
+
+🔱 Command: .help 
+🔰 Description: Gives information about using the bot from the Help menu. 
+
+🔱 Command: .degis 
+
+🔱 Command: .restart
+🔰 Description: බොට් නැවත ආරම්භ කිරීම  
+
+🔱 Command: .shutdown
+🔰 Description: BOT වසා දැමීම  
+
+🔱 Command: .dyno
+🔰 Description: හෙරෝකු ඩයිනෝ භාවිතය පරීක්‍ෂා කරන්න 
+
+🔱 Command: .setvar 
+🔰 Description: Heroku config var සකසන්න  
+
+🔱 Command: .delvar 
+🔰 Description: හෙරෝකු වින්‍යාස සංස්කරණය මකන්න  
+
+🔱 Command: .getvar 
+🔰 Description: Heroku config config ලබා ගන්න  
+
+🔱 Command: .locate
+🔰 Description: එය ඔබේ ස්ථානය යවයි . 
+⚠️ Warn: විධානය භාවිතා කිරීමට පෙර කරුණාකර ඔබේ ස්ථානය විවෘත කරන්න !
+
+🔱 Command: .log
+🔰 Description: ඔබේ පුද්ගලික අංකයට ඔබ පිළිතුරු දෙන පණිවිඩය සුරකිනු ඇත. 
+⚠️ Warn: Does not support animated stickers!
+
+🔱 Command: .logo
+
+🔱 Command: .meme 
+🔰 Description: ඡායාරූප memes ඔබ පිළිතුරු දුන්නා . 
+
+🔱 Command: .dumi
+🔰 Description: එය අධි විභේදන බිතුපත් යවයි . 
+
+🔱 Command: .insta 
+🔰 Description: Downloads Image/Video From Instagram 
+
+🔱 Command: .fb 
+🔰 Description: Downloads Video From FaceBook 
+
+🔱 Command: .neko
+🔰 Description: පිළිතුරු දුන් පණිවිඩ එකතු කරනු ඇත  nekobin.com. 
+
+🔱 Command: .notes
+🔰 Description: Shows all your existing notes. 
+
+🔱 Command: .save 
+🔰 Description: Reply a message and type .save or just use .save <Your note> without replying 
+
+🔱 Command: .deleteNotes
+🔰 Description: Deletes *all* your saved notes. 
+
+🔱 Command: .ocr 
+🔰 Description: ඔබ පිළිතුරු දුන් ඡායාරූපයෙහි පාඨය කියවයි . 
+
+🔱 Command: .kickme
+🔰 Description: ඔබ එය භාවිතා කරන කණ්ඩායමෙන් එය ඔබව පන්නා දමයි . 
+
+🔱 Command: .pp
+🔰 Description: ඔබ පිළිතුරු දෙන ඡායාරූපය පැතිකඩ ඡායාරූපය බවට පත් කරයි . 
+
+🔱 Command: .block 
+🔰 Description: පරිශීලකයා අවහිර කරන්න . 
+
+🔱 Command: .unblock 
+🔰 Description: පරිශීලකයා අවහිර කරන්න . 
+
+🔱 Command: .jid 
+🔰 Description: පරිශීලකයාගේ JID ලබා දීම . 
+
+🔱 Command: .removebg 
+🔰 Description: ඡායාරූප වල පසුබිම ඉවත් කරයි.  
+
+🔱 Command: .report 
+
+🔱 Command: .scam 
+🔰 Description: මිනිත්තු 5 ක ව්‍යාජ ක්‍රියාවන් නිර්මානය කරයි . 
+
+🔱 Command: .scan 
+
+🔱 Command: .trt
+🔰 Description: එය Google පරිවර්තනය සමඟ පරිවර්තනය කරයි.  ඔබ ඕනෑම පණිවිඩයකට පිළිතුරු දිය යුතුය . 
+⌨️ Example: .trt tr it (From Turkish to Italian)
+
+🔱 Command: .detectlang
+
+🔱 Command: .currency
+
+🔱 Command: .tts 
+🔰 Description: එය පෙළ ශබ්දය බවට පරිවර්තනය කරයි . 
+
+🔱 Command: .song 
+🔰 Description: ඔබ ලියූ ගීතය උඩුගත කරයි . 
+
+🔱 Command: .video 
+🔰 Description: යූටියුබ් වෙතින් වීඩියෝ බාගැනීම් . 
+
+🔱 Command: .yt 
+🔰 Description: එය යූ ටියුබ් හි සොයයි . 
+
+🔱 Command: .wiki 
+🔰 Description: විකිපීඩියාවේ විමසුම සොයයි . 
+
+🔱 Command: .img 
+🔰 Description: අදාළ පින්තූර ගූගල් හි සොයයි . 
+
+🔱 Command: .github 
+🔰 Description: Collects github information from the given username.
+⌨️ Example: .github phaticusthiccy 
+
+🔱 Command: .lyric 
+🔰 Description: Finds the lyrics of the song. 
+
+🔱 Command: .covid 
+🔰 Description: රටවල් 15 කට වැඩි ගණනක දෛනික සහ සමස්ත කොවිඩ් වගුව පෙන්වයි . 
+
+🔱 Command: .ss 
+🔰 Description: ලබා දී ඇති සම්බන්ධකයේ පිටුවෙන් තිර රුවක් ගනී . 
+
+🔱 Command: .insta 
+🔰 Description: Fetches user informations from instagram 
+
+🔱 Command: .animesay 
+🔰 Description: ඇනිමෙ දැරිය තබා ඇති බැනරය තුළ එය පෙළ ලියයි  
+
+🔱 Command: .changesay 
+🔰 Description: මගේ මනස වෙනස් කරන්න පෝස්ටරය බවට පෙළ හරවන්න.  
+
+🔱 Command: .trumpsay 
+🔰 Description: පෙළ ට්‍රම්ප්ගේ ට්වීට් වෙත පරිවර්තනය කරන්න.  
+
+🔱 Command: .audio spam
+
+🔱 Command: .foto spam
+
+🔱 Command: .sticker spam
+
+🔱 Command: .vid spam
+
+🔱 Command: .killspam
+🔰 Description: අයාචිත තැපැල් විධානය නතර කරයි.  
+
+🔱 Command: .spam 
+🔰 Description: ඔබ නවත්වන තුරු එය ස්පෑම් ය t.
+⌨️ Example: .spam DUMI BOT 
+
+🔱 Command: .sticker
+🔰 Description: එය ඔබට පිළිතුරු දුන් ඡායාරූපය හෝ වීඩියෝ පටය ස්ටිකරයක් බවට පත් කරයි . 
+
+🔱 Command: .alive
+🔰 Description: බොට් වැඩ කරනවද?  
+
+🔱 Command: .sysd
+🔰 Description: පද්ධති ගුණාංග පෙන්වයි.  
+
+🔱 Command: .tagadmin
+
+🔱 Command: .tagall 
+🔰 Description: කණ්ඩායමේ සියලුම දෙනාට ටැග් කරන්න. 
+
+🔱 Command: .stam
+
+🔱 Command: .tblend 
+🔰 Description: වීඩියෝ සඳහා තෝරා ගත් ටීබීලන්ඩ් බලපෑම අදාළ වේ . 
+
+🔱 Command: .texttoimg
+
+🔱 Command: .ttp 
+🔰 Description: පෙළ සරල සිතුවම් බවට පරිවර්තනය කරයි . 
+
+🔱 Command: .attp 
+🔰 Description: දේදුනු ආචරණය ස්ටිකරයක් ලෙස පෙළට එක් කරයි. 
+
+🔱 Command: .unvoice
+🔰 Description: ශ්‍රව්‍ය ශබ්ද පටිගත කිරීම බවට පරිවර්තනය කරයි . 
+
+🔱 Command: .update
+🔰 Description: යාවත්කාලීන පරීක්ෂා කරයි . 
+
+🔱 Command: .update now
+🔰 Description: එය යාවත්කාලීන කරයි. . 
+
+🔱 Command: .voicy
+🔰 Description: එය ශ්‍රව්‍ය පෙළට පරිවර්තනය කරයි . 
+
+🔱 Command: .wallpaper
+🔰 Description: එය අධි විභේදන බිතුපත් යවයි . 
+
+🔱 Command: .weather 
+🔰 Description: නකාලගුණය පෙන්වන්න . 
+
+🔱 Command: .speedtest
+🔰 Description: බාගැනීමේ හා උඩුගත කිරීමේ වේගය මැනීම . 
+
+🔱 Command: .ping
+🔰 Description: ඔබේ පිං මැනීම . 
+
+🔱 Command: .short 
+🔰 Description: දිගු සම්බන්ධකය කෙටි කරන්න . 
+
+🔱 Command: .calc 
+
+🔱 Command: .whois
+🔰 Description: කණ්ඩායමේ හෝ පුද්ගලයාගේ පාර -දත්ත දත්ත පෙන්වයි .
 ╚═══════════════════════════════
 ═════💢DUMI BOT💢═════
 ▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣
