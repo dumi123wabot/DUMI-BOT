@@ -1,4 +1,3 @@
-
 /* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -23,7 +22,7 @@ if (Config.WORKTYPE == 'private') {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
-        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: ©𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓 }); });
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.©DUMI𝐁𝐎𝐓 }); });
     }));
 
     Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC}, (async (message, match) => {
@@ -40,7 +39,7 @@ else if (Config.WORKTYPE == 'public') {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
-        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: © 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓 }); });
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.©DUMI𝐁𝐎𝐓 }); });
     }));
 
     Asena.addCommand({pattern: 'sysd', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
