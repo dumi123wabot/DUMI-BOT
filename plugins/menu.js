@@ -139,9 +139,13 @@ Asena.addCommand({pattern: 'dumi', fromMe: false, desc: Lang.WP}, (async (messag
 💢Logo  Commands💢(මේවා වැරදි අලුත් වැඩියා කල යුතු බැවින් දැනට .txttoimg පාවච්චි කරන්න)
 ♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .txttiomg
 🌀𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
+
+♦️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .logo
+🌀𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
 ╚═══════════════════════════════
 ═════💢DUMI BOT💢═════
 ▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣
 `}) 
 
 }));
+
