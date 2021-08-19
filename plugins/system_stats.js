@@ -1,18 +1,14 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2020 TOXIC DEVIL
 
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
-Developer & Co-Founder - Phaticusthiccy
+CODDED BY TOXIC DEVIL
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');
-const Axios = require('axios');
+const axios = require('axios');
 
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
@@ -22,26 +18,27 @@ if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
-        if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*whatsapp Group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*whatsapp group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqXr\n*Plugin whatsapp group:* ' + Config.CHANNEL , MessageType.text);
-        }
-        else {
-            const pow = '*© 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓*'
-            const payload = Config.ALIVEMSG
-            const status = await message.client.getStatus()
-            const ppUrl = await message.client.getProfilePicture() 
-            const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
+        if (Config.ALIVEMSG == 'හායි මම දැන් ඔන්ලයින්.🥀'/n https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX _join this/n ') {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: © 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓})
 
-            if (!payload.includes('{pp}')) {
-                await message.client.sendMessage(message.jid,payload.replace('{version}', Config.VERSION).replace('{info}', `${status.status}`).replace('{plugin}', Config.CHANNEL) + '\n' + pow, MessageType.text);
-            }
-            else if (payload.includes('{pp}')) {
-                await message.sendMessage(Buffer(resim.data), MessageType.image, { caption: payload.replace('{version}', Config.VERSION).replace('{pp}', '').replace('{info}', `${status.status}`).replace('{plugin}', Config.CHANNEL) + '\n' + pow });
-            }
-        }
+    }
+    else {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: © 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓})
+     }
     }));
 
     Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC}, (async (message, match) => {
+
+        if (message.jid === '905524317852-1612300121@g.us') {
+
+            return;
+        }
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -53,30 +50,31 @@ else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
-        if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*whatsapp Group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*whatsapp group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqXr\n*Plugin whatsapp group:* ' + Config.CHANNEL , MessageType.text);
-        }
-        else {
-            const pow = '*© 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓*'
-            const payload = Config.ALIVEMSG
-            const status = await message.client.getStatus()
-            const ppUrl = await message.client.getProfilePicture() 
-            const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
+        if (Config.ALIVEMSG == 'හායි මම දැන් ඔන්ලයින්.🥀'/n https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX _join this/n ) {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: © 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓})
 
-            if (!payload.includes('{pp}')) {
-                await message.client.sendMessage(message.jid,payload.replace('{version}', Config.VERSION).replace('{info}', `${status.status}`).replace('{plugin}', Config.CHANNEL) + '\n' + pow, MessageType.text);
-            }
-            else if (payload.includes('{pp}')) {
-                await message.sendMessage(Buffer(resim.data), MessageType.image, { caption: payload.replace('{version}', Config.VERSION).replace('{pp}', '').replace('{info}', `${status.status}`).replace('{plugin}', Config.CHANNEL) + '\n' + pow });
-            }
-        }
+    }
+    else {
+            
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+       
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: © 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓})
+     }
     }));
 
     Asena.addCommand({pattern: 'sysd', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
+
+        if (message.jid === '905524317852-1612300121@g.us') {
+
+            return;
+        }
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
             '```' + child + '```', MessageType.text
         );
     }));
-}
+} 
