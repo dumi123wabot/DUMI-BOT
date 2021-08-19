@@ -23,10 +23,10 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tanrı Türk\'ü Korusun. 🐺 Asena Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/asenaremaster\n*Plugin Channel:* ' + Config.CHANNEL , MessageType.text);
+            await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*whatsapp Group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*whatsapp group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqXr\n*Plugin whatsapp group:* ' + Config.CHANNEL , MessageType.text);
         }
         else {
-            const pow = '*Powered by WhatsAsena*'
+            const pow = '*© 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓*'
             const payload = Config.ALIVEMSG
             const status = await message.client.getStatus()
             const ppUrl = await message.client.getProfilePicture() 
@@ -54,10 +54,10 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tanrı Türk\'ü Korusun. 🐺 Asena Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/asenaremaster\n*Plugin Channel:* ' + Config.CHANNEL, MessageType.text);
+            await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*whatsapp Group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*whatsapp group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqXr\n*Plugin whatsapp group:* ' + Config.CHANNEL , MessageType.text);
         }
         else {
-            const pow = '*Powered by WhatsAsena*'
+            const pow = '*© 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐔𝐌𝐈 𝐁𝐎𝐓*'
             const payload = Config.ALIVEMSG
             const status = await message.client.getStatus()
             const ppUrl = await message.client.getProfilePicture() 
