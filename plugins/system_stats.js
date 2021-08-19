@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tanrı Türk\'ü Korusun. 🐺 Asena Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/asenaremaster\n*Plugin Channel:* ' + Config.CHANNEL , MessageType.text);
+            await message.client.sendMessage(message.jid,'```හායි මම දැන් ඔන්ලයින්.🥀 !```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*WHATSAPP Group:*https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX*whatsapp plugins group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX\n*:* ' + Config.CHANNEL, MessageType.text);
         }
         else {
             const pow = '*Powered by WhatsAsena*'
