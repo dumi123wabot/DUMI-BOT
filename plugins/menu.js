@@ -79,6 +79,10 @@ Asena.addCommand({pattern: 'dumi', fromMe: false, desc: Lang.WP}, (async (messag
 
 🔱 Command: .carbon
 
+🔱 Command: .gm
+
+🔱 Command: .gn
+
 🔱 Command: .mp4audio
 🔰 Description: වීඩියෝව ශබ්දය බවට පරිවර්තනය කරයි . 
 
