@@ -73,6 +73,8 @@ Asena.addCommand({pattern: 'dumi', fromMe: true, desc: Lang.WP}, (async (message
 
 🔱 Command: .apkmod
 
+🔱 Command: .quote
+
 🔱 Command: .fatp
 
 🔱 Command: .gm
