@@ -98,6 +98,8 @@ Asena.addCommand({pattern: 'dumi', fromMe: false, desc: Lang.WP}, (async (messag
 
 🔱 Command: .print 
 
+🔱 Command: .quote
+
 🔱 Command: .bashmedia 
 ⌨️ Example: video.mp4 && media/gif/pic.mp4
 
