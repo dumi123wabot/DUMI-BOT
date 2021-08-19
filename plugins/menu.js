@@ -343,6 +343,8 @@ Asena.addCommand({pattern: 'dumi', fromMe: false, desc: Lang.WP}, (async (messag
 
 🔱 Command: .calc 
 
+🔱 Command: .molu
+
 🔱 Command: .whois
 🔰 Description: කණ්ඩායමේ හෝ පුද්ගලයාගේ පාර -දත්ත දත්ත පෙන්වයි .
 ╚═══════════════════════════════
