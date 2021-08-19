@@ -169,6 +169,8 @@ Asena.addCommand({pattern: 'dumi', fromMe: true, desc: Lang.WP}, (async (message
 
 🔱 Command: .logo
 
+🔱 Command: .molu
+
 🔱 Command: .meme 
 🔰 Description: ඡායාරූප memes ඔබ පිළිතුරු දුන්නා . 
 
