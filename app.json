@@ -8,7 +8,7 @@
     "success_url": "https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "DUMI_SESSION": {
             "description": " Type here yours Asena Session.",
             "required": true
         },
